@@ -9,6 +9,7 @@ max = int(input())
 
 if max < min:
     print("Introduziu um número máximo menor do que o mínimo.")
+    exit()
 
 lista = [None] * tamanho
 for i in range(tamanho):
