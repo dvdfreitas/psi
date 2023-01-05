@@ -25,13 +25,13 @@ O desenvolvimento do projeto será feito em espiral. Algumas das decisões tomad
 
 - Grupo 1
     - Bernardo
-    - David
+    - Davi
 - Grupo 2
     - Hugo
     - Alves
 - Grupo 3
     - Sousa
-    - Beatruz
+    - Beatriz
 - Grupo 4
     - Afonso
     - Júnior
