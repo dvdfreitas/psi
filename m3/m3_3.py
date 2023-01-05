@@ -9,4 +9,7 @@ for pos in range(len(lista)):
 
 palavra = ''.join(lista)
 
+# Muito mais simples usar
+# palavra.replace("a", "e")
+
 print("Os a's foram substituídos por e's: ", palavra)
