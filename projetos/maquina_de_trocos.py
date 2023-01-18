@@ -1,14 +1,23 @@
 moedas_existentes = [2, 1, 0.5, 0.20, 0.10, 0.05, 0.02, 0.01]
-moedas_inseridas = [1, 1, 0, 0, 0, 0, 50, 10000]
+moedas_inseridas = [0, 0, 0, 0, 0, 0, 0, 10000]
 moedas_dar = [0] * len(moedas_existentes)
-
-troco = 13.99
+troco = 2.01
 
 for pos in range(len(moedas_existentes)):
+    print(moedas_existentes[pos], "€")
+    print("Troco", troco)
+    print("***********", troco / moedas_existentes[pos], "**********")
     moedas = round(troco // moedas_existentes[pos])
+    print("Moedas: ", moedas)
     moedas = min(moedas, moedas_inseridas[pos])
+    
     troco = round(troco - moedas * moedas_existentes[pos], 2)
+    print("Troco * ", troco)
     moedas_dar[pos] += moedas
+
+print(troco)
+if (troco > 0):
+    print("Não é possível dar troco.")
 
 print(moedas_dar)
 
