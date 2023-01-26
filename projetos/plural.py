@@ -1,3 +1,9 @@
+def calcula_plural(palavra):
+
+    return plural
+
+print(calcula_plural(123))
+
 lista_de_palavras = [('computador', 'computadores'), ('caroça', 'caroças'), ('centímo', 'euros')]
 
 print("Introduza a palavra:", end='')

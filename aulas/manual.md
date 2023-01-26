@@ -76,3 +76,5 @@ None is the most common singleton we test with is.
 
 Usually we are more interested in object equality than identity. Checking for None is the only common use case for the is operator. Most other uses I see while reviewing code are wrong. If you are not sure, use ==. It’s usually what you want, and also works with None—albeit not as fast.
 
+# Strings
+
