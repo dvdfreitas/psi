@@ -1,24 +1,25 @@
-lista1 = [
+lista = [
     ('mão', 'mãos'), 
     ('sopa', 'sopas'),
+    ('lápis', 'lápis')
 ]
 
-lista2 = [
-    ('mão', 'mãos'), 
-    ('aula', 'aulas'),
-]
 
 def calcula_plural(palavra):
 
-    plural = palavra + "s"
 
-    return plural
+    if palavra[-1] == "r" or palavra[-1] == "s" or palavra[-1] == "z":
+        resultado = palavra + "es"    
+    elif palavra[-2:] == "ão":
+        resultado = palavra.replace('ão', 'ões')
+    else:
+            resultado = palavra + "s"
 
-lista1 = [
-    ('mão', 'mãos'), 
-    ('aula', 'aulas'),
-    ('sopa', 'sopas'),
-]
+    for singular, plural in lista:
+        if singular == palavra:
+            resultado = plural
+        
+    return resultado
 
 
 def junta_listas(lista1, lista2):
@@ -32,8 +33,18 @@ def junta_listas(lista1, lista2):
 
     return resultado
 
-print(junta_listas(lista1, lista2))
+print(calcula_plural("lápis"))
+print(calcula_plural("sopa"))
+print(calcula_plural("caneta"))
+print(calcula_plural("raiz"))
+print(calcula_plural("rapaz"))
+print(calcula_plural("bar"))
+print(calcula_plural("revés"))
+print(calcula_plural("opinião"))
+print(calcula_plural("ãoão"))
 
+
+#print(junta_listas(lista1, lista2))
 
 # lista_de_palavras = [('computador', 'computadores'), ('caroça', 'caroças'), ('centímo', 'euros')]
 
