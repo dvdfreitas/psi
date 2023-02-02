@@ -39,6 +39,27 @@ string.replace(valor_antigo, novo_valor, conta)
 - novo_valor - Obrigatório. A string que irá substituir
 - count - O número de vezes a substituir a string. Se não for especificado, todas as ocorrências irão ser substituídas.
 
+## Grupos
+
+- Grupo 1
+    - Bernardo
+    - Veiga
+- Grupo 2
+    - Hugo
+    - Alves
+- Grupo 3
+    - Sousa
+    - Beatriz
+- Grupo 4
+    - Afonso
+    - Júnior
+- Grupo 5
+    - Cristiano
+    - Filipe
+- Grupo 6
+    - Davi
+    - Daniel
+
 ## Trabalho
 
 - capitalize()	Converts the first character to upper case
