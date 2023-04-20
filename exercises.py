@@ -1,0 +1,5 @@
+- Escrever um programa que recebe um número inteiro e diz quantos dígitos tem.
+- Escrever um programa que retorno o n-ésimo dígito.
+- Classificar Poker
+    - AAAA não são dois pares
+- Leia um conjunto de parênteses e diga se estão balanceados ou não.

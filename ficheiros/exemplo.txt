@@ -1,0 +1,3 @@
+Ana,91234567,Casa
+Bernardo,91345678,Rua
+Carlos,92345678,Ponte
