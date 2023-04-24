@@ -1,3 +1,8 @@
-Ana,91234567,Casa
-Bernardo,91345678,Rua
-Carlos,92345678,Ponte
+Ana
+Beatriz Beatriz
+Carlos David
+Eduardo Ana Ana Ana
+Eduardo
+Eduardo
+Carlos
+Ana
