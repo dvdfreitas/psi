@@ -55,3 +55,34 @@ print("Soma dos pares: " + str(soma_pares))
 print("Soma dos ímpares: " + str(soma_impares))
 ```
 
+### Código 3
+
+```python3
+print("Insira o número:")
+numero = int(input())
+
+primo = True
+n_dividir = range(2, numero)
+for n in n_dividir:
+    if numero % n == 0:
+        primo = False
+        break
+
+if primo:
+    print("É primo")
+else:
+    print("Não é primo")
+```
+
+### Código 4
+
+```python3
+print("Introduza o número:")
+numero = int(input())
+
+mult = 1
+for n in range(1, numero+1):
+    mult = mult * n
+
+print("O factor é: " + str(mult))
+```

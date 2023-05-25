@@ -4,7 +4,12 @@
 
 # Planos de recuperação
 
-[Módulo 3](recuperação/mod3.md)
+Cada plano de recuperação deverá conter as seguintes informações no início das folhas entregues:
+
+- Número e nome do módulo 
+- Nome do aluno
+
+[Módulo 3: Programação estruturada](recuperação/mod3.md)
 
 # Tarefas individuais da aula
 
