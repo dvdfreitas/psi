@@ -6,7 +6,7 @@ Para cada um dos programas seguintes, deverá transcrever para o papel o código
 
 Deverá ainda fazer uma traçagem do código e explicar no geral o que faz o programa.
 
-No final deverá combinar com o professor um exercício de validação dos conhecimentos.
+No final deverá combinar com o professor a realização de um exercício de validação dos conhecimentos.
 
 
 ### Código 1
