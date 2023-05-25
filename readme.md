@@ -2,6 +2,10 @@
 
 [Recursividade](aulas/aula_recursividade.md)
 
+# Planos de recuperação
+
+[Módulo 3](recuperação/mod3.md)
+
 # Tarefas individuais da aula
 
 ---
