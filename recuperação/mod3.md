@@ -8,6 +8,8 @@ Deverá ainda fazer uma traçagem do código e explicar, na generalidade, o que 
 
 No final deverá combinar com o professor a realização de um exercício de validação dos conhecimentos.
 
+---
+
 ### Código 1
 
 ```python
@@ -27,6 +29,9 @@ else:
 
 print(maior)
 ```
+
+---
+
 
 ### Código 2
 
@@ -54,6 +59,8 @@ print("Soma dos pares: " + str(soma_pares))
 print("Soma dos ímpares: " + str(soma_impares))
 ```
 
+---
+
 ### Código 3
 
 ```python3
@@ -72,6 +79,8 @@ if primo:
 else:
     print("Não é primo")
 ```
+
+---
 
 ### Código 4
 
