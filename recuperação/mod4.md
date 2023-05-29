@@ -2,7 +2,7 @@
 
 ## Módulo 4: Estrutura de dados estáticas
 
-Para cada um dos programas seguintes, deverá transcrever para o papel o código, comentando todas as linhas.
+Para cada um dos programas seguintes, deverá transcrever para o papel os exemplos de código que aparecem de seguida, comentando todas as linhas.
 
 **Deverá ainda fazer uma traçagem do código e explicar, na generalidade, o que faz o programa.**
 
