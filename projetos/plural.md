@@ -1,3 +1,26 @@
+Grupos
+
+    Grupo 1
+        Bernardo
+        Davi
+    Grupo 2
+        Hugo
+        Alves
+    Grupo 3
+        Sousa
+        Beatriz
+    Grupo 4
+        Afonso
+        Júnior
+    Grupo 5
+        Cristiano
+        Filipe
+    Grupo 6
+        Veiga
+        Daniel
+
+
+
 # Plural
 
 Neste projeto vamos fazer um programa que permite encontrar o plural de uma palavra.
