@@ -62,56 +62,56 @@ string.replace(valor_antigo, novo_valor, conta)
 
 ## Trabalho
 
-- capitalize()	Converts the first character to upper case
-- casefold()	Converts string into lower case
-- center()	Returns a centered string
-- count()	Returns the number of times a specified value occurs in a string
-- encode()	Returns an encoded version of the string
-- endswith()	Returns true if the string ends with the specified value
-- expandtabs()	Sets the tab size of the string
-- find()	Searches the string for a specified value and returns the position of where it was found
-- format()	Formats specified values in a string
-- format_map()	Formats specified values in a string
-- index()	Searches the string for a specified value and returns the position of where it was found
-- isalnum()	Returns True if all characters in the string are alphanumeric
-- isalpha()	Returns True if all characters in the string are in the alphabet
-- isascii()	Returns True if all characters in the string are ascii characters
-- isdecimal()	Returns True if all characters in the string are decimals
-- isdigit()	Returns True if all characters in the string are digits
-- isidentifier()	Returns True if the string is an identifier
-- islower()	Returns True if all characters in the string are lower case
-- isnumeric()	Returns True if all characters in the string are numeric
-- isprintable()	Returns True if all characters in the string are printable
-- isspace()	Returns True if all characters in the string are whitespaces
-- istitle()	Returns True if the string follows the rules of a title
-- isupper()	Returns True if all characters in the string are upper case
-- join()	Converts the elements of an iterable into a string
-- ljust()	Returns a left justified version of the string
-- lower()	Converts a string into lower case
-- lstrip()	Returns a left trim version of the string
-- maketrans()	Returns a translation table to be used in translations
-- partition()	Returns a tuple where the string is parted into three parts
-- replace()	Returns a string where a specified value is replaced with a specified value
-- rfind()	Searches the string for a specified value and returns the last position of where it was found
-- rindex()	Searches the string for a specified value and returns the last position of where it was found
-- rjust()	Returns a right justified version of the string
-- rpartition()	Returns a tuple where the string is parted into three parts
-- rsplit()	Splits the string at the specified separator, and returns a list
-- rstrip()	Returns a right trim version of the string
-- split()	Splits the string at the specified separator, and returns a list
-- splitlines()	Splits the string at line breaks and returns a list
-- startswith()	Returns true if the string starts with the specified value
-- strip()	Returns a trimmed version of the string
-- swapcase()	Swaps cases, lower case becomes upper case and vice versa
-- title()	Converts the first character of each word to upper case
-- translate()	Returns a translated string
-- upper()	Converts a string into upper case
-- zfill()	Fills the string with a specified number of 0 values at the beginning
+- capitalize()	Converte o primeiro caractere para maiúscula
+- casefold()	Converte string em letras minúsculas
+- center()	Retorna uma string centralizada
+- count()	Retorna o número de vezes que um valor especificado ocorre em uma string
+- encode()	Retorna uma versão codificada da string
+- endswith()	Retorna true se a string terminar com o valor especificado
+- expandtabs()	Define o tamanho da tabulação da string
+- find()	Procura na string um valor especificado e retorna a posição de onde foi encontrado
+- format()	Formata os valores especificados em uma string
+- format_map()	Formata os valores especificados em uma string
+- index()	Procura na string um valor especificado e retorna a posição de onde foi encontrado
+- isalnum()	retorna True se todos os caracteres na string forem alfanuméricos
+- isalpha()	Retorna True se todos os caracteres da string estiverem no alfabeto
+- isascii()	Retorna True se todos os caracteres na string forem caracteres ASCII
+- isdecimal()Retorna True se todos os caracteres na string forem decimais
+- isdigit()	Retorna True se todos os caracteres na string forem dígitos
+- isidentifier()	Retorna True se a string for um identificador
+- islower()	Retorna True se todos os caracteres da string forem minúsculos
+- isnumeric()Retorna True se todos os caracteres da string forem numéricos
+- isprintable()	Retorna True se todos os caracteres na string forem imprimíveis
+- isspace()	Retorna True se todos os caracteres na string forem espaços em branco
+- istitle()	Retorna True se a string seguir as regras de um título
+- isupper()	Retorna True se todos os caracteres da string forem maiúsculos
+- join()	Converte os elementos de um iterável em uma string
+- ljust()	Retorna uma versão justificada à esquerda da string
+- lower()	Converte uma string em letras minúsculas
+- lstrip()	Retorna uma versão de corte à esquerda da string
+- maketrans()	Retorna uma tabela de tradução para ser usada nas traduções
+- partition()	Retorna uma tupla onde a string é dividida em três partes
+- replace()	Retorna uma string onde um valor especificado é substituído por um valor especificado
+- rfind()	Procura na string um valor especificado e retorna a última posição de onde foi encontrado
+- rindex()	Procura na string um valor especificado e retorna a última posição de onde foi encontrado
+- rjust()	Retorna uma versão justificada à direita da string
+- rpartition()	Retorna uma tupla onde a string é dividida em três partes
+- rsplit()	Divide a string no separador especificado e retorna uma lista
+- rstrip()	Retorna uma versão de corte à direita da string
+- split()	Divide a string no separador especificado e retorna uma lista
+- splitlines()	Divide a string nas quebras de linha e retorna uma lista
+- startswith()	Retorna true se a string começar com o valor especificado
+- strip()	Retorna uma versão aparada da string
+- swapcase()	Troca as letras maiúsculas e minúsculas e vice-versa
+- title()	Converte o primeiro caractere de cada palavra para maiúscula
+- translate()	Retorna uma string traduzida
+- upper()	Converte uma string em letras maiúsculas
+- zfill()	Preenche a string com um número especificado de valores 0 no início
 
 
 ## Avançado 
 
 ### Carateres
 
-In 2021, the best definition of “character” we have is a Unicode character. Accordingly, the items we get out of a Python 3 str are Unicode characters, just like the items of a unicode object in Python 2—and not the raw bytes we got from a Python 2 str.
+Em 2021, a melhor definição de “caráter” que temos é um caractere Unicode. Da mesma forma, os itens que obtemos de um Python 3 str são caracteres Unicode, assim como os itens de um objeto unicode no Python 2 - e não os bytes brutos que obtivemos de um Python 2 str.
 
