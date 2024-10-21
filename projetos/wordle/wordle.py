@@ -6,13 +6,25 @@ lista_de_palavras = []
 def ler_palavras(lingua):
     if lingua == "pt":
         print("Escolheu a Língua Portuguesa")
-    lista_de_palavras = ['hotel', 'assim', 'salto']
+    lista_de_palavras = ['hotel', 'assim', 'salto', 'halet', 'talso']
     return lista_de_palavras
 
 def imprime_letras(letras):
     print("\nLetras por utilizar: ", end='')
     separador = ""
     print(separador.join(letras))
+
+def imprime_semelhanca(palavra, palavra_secreta):
+    print(palavra)
+    pos = 0
+    for letra in palavra:
+        if letra == palavra_secreta[pos]:
+            print('*', end='')
+        elif letra in palavra_secreta:
+            print('^', end='')
+        else:
+            print(' ', end='')
+        pos += 1
 
 def valida_palavra(palavra):
     valid = True
@@ -48,6 +60,7 @@ while (tentativas > 0 and not acertou):
         imprime_letras(letras)
         palavra = input("Insira a palavra (5 letras): ")
         estaPalavraEValida = valida_palavra(palavra)
+        imprime_semelhanca(palavra, palavra_secreta)
 
     retira_letras_utilizadas(palavra)
     if palavra == palavra_secreta:

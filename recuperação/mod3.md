@@ -1,3 +1,4 @@
+
 # Plano de recuperação
 
 ## Módulo 3: Programação estruturada
@@ -94,3 +95,5 @@ for n in range(1, numero+1):
 
 print("O factor é: " + str(mult))
 ```
+
+![](logo.png)

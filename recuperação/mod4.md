@@ -77,3 +77,5 @@ print("\nElement-wise sum of the said tuples:")
 result = tuple(map(sum, zip(x, y, z)))
 print(result)
 ```
+
+![](logo.png)
